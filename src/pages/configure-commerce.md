@@ -63,7 +63,7 @@ Save your changes. The remaining installation steps vary, depending on your envi
    git add app/etc/config.php
    ```
 
-1. Run the `php vendor/bin/ece-tools -V` command to determine your version of ece-tools. If the version is less than `2002.1.13`, [update to the most recent version](https://devdocs.magento.com/cloud/project/ece-tools-update.html).
+1. Run the `php vendor/bin/ece-tools -V` command to determine your version of ece-tools. If the version is less than `2002.1.13`, [update to the most recent version](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html).
 
 1. Enable eventing in the `.magento.env.yaml` file:
 
@@ -187,19 +187,19 @@ Commerce provides two sources for events: observers and plugins. You must specif
 
 1. Return to your workspace. Click the **Add service** pop-up menu and select **Event**.
 
-   ![Click Add service in your workspace](../_images/add-event.png)
+   ![Click Add service in your workspace](_images/add-event.png)
 
 1. On the **Add events** page, select your event provider. Then click **Next**.
 
 1. Select the events to subscribe to. Then click **Next**.
 
-   ![Select the events to subscribe to](../_images/config-event-registration.png)
+   ![Select the events to subscribe to](_images/config-event-registration.png)
 
 1. Optionally create a new JWT credential. Then click **Next**.
 
 1. Update the **Event registration name** and **Event registration description** fields. In the **How to receive events** section, under **Option 2**, select the runtime action you created in [Set up App Builder and define a runtime action](./project-setup.md#set-up-app-builder-and-define-a-runtime-action).
 
-   ![Select a runtime action](../_images/select-runtime-action.png)
+   ![Select a runtime action](_images/select-runtime-action.png)
 
 1. Select **Save configured events**.
 
@@ -215,6 +215,6 @@ Cron must be enabled so that Commerce can send events to the endpoint defined in
 
 Cloud infrastructure and on-premises instances require different cron management procedures as described here:
 
-*  [Adobe Commerce on cloud infrastructure](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html)
+*  [Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)
 
 *  [On premises](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/crons/custom-cron-reference.html)
